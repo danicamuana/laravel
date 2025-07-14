@@ -17,8 +17,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        name: Checkout code
 
-      - name: Setup PHP
+      - name: Setup PHP 8.2
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
